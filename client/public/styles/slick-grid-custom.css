@@ -1,0 +1,53 @@
+.custum-header .slick-header-column.ui-state-default {
+  line-height: 20px !important;
+  height: 32px !important;
+}
+
+.slick-headerrow-column {
+  background: #1ab394 !important;
+  text-overflow: clip !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+.slick-headerrow-column input {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+.grid-header {
+  width: calc(100% + 17px);
+  background: #2f4050 !important;
+}
+
+.slick-row.active .slick-cell {
+  background-color: rgba(26, 179, 148, 0.2);
+}
+
+.cell-red {
+  color: #E64237;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.cell-yellow {
+  color: #fcb567;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.cell-green {
+  color: #3CA859;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+@keyframes slickgrid-invalid-hilite {
+  0% {
+    box-shadow: 0 0 40px red
+  }
+}

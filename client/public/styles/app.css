@@ -1,0 +1,509 @@
+.email {
+  position: relative;
+  overflow: hidden;
+  max-width: '100%';
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  line-height: 1.42857142857143;
+  white-space: nowrap;
+}
+
+.summary {
+  max-width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.summary:hover {
+  max-width: initial;
+}
+
+.confluence-iframe-popover {
+  width: 30% !important;
+  max-width: 30% !important;
+}
+
+.confluence-iframe-popover .popover-content {
+  width: 100%!important;
+}
+
+.nav-pills>li.active>a {
+  background-color: #2f4050 !important;
+}
+
+#bo_instance_relationships .nav-pills>li.active>a {
+  background-color: #676A6C !important;
+}
+
+input.rounded {
+  border: 1px solid #ccc !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  border-radius: 3px !important;
+  -moz-box-shadow: 2px 2px 3px #666 !important;
+  -webkit-box-shadow: 2px 2px 3px #666 !important;
+  box-shadow: 2px 2px 3px #666 !important;
+  padding: 4px 7px !important;
+  outline: 0 !important;
+  -webkit-appearance: none !important;
+  height: 27px;
+  background: #ffffff !important;
+}
+
+input.rounded:focus {
+  border-color: #2979B6 !important;
+}
+
+#relationshipGrid .select2-selection--single {
+  border-color: #2979B6 !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  border-radius: 3px !important;
+}
+
+.schedule .amcharts-legend-div {
+  display: none !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+.text-hidden {
+  display: block;
+  width: 450px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.legend-disable {
+  background-color: gray !important;
+}
+
+.legend-container {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.legend-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.legend-container input:checked~.checkmark:after {
+  display: block;
+}
+
+.legend-container .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.custom-select .dropdown-menu label.radio input[type=radio] {
+  margin-top: 6px
+  /* display: none; */
+}
+
+.custom-select .dropdown-menu>li>a {
+  padding-left: 20px;
+}
+
+.custom-select .dropdown-menu>li>a>label {
+  padding: 4px !important;
+}
+
+.custom-select .dropdown-toggle {
+  text-align: left !important;
+  height: 36px;
+}
+
+.custom-select .dropdown-toggle>b {
+  float: right;
+}
+
+.isn-header .custom-select .dropdown-toggle {
+  height: 36px !important;
+  margin-top: 5px
+}
+
+.react-autosuggest__suggestion[aria-selected="true"] {
+  background-color: #cde69c;
+}
+
+.react-autosuggest__suggestion[aria-selected="true"]>span {
+  font-weight: 900;
+}
+
+#tagInputs .react-tagsinput {
+  max-height: 450px;
+  overflow-y: auto !important
+}
+
+.boc .disabled {
+  pointer-events: none;
+}
+
+.datepicker {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.datepicker:focus {
+  border: 1px solid #1AB394;
+}
+
+.ui-datepicker-calendar .ui-datepicker-current-day .ui-state-active {
+  background: #1AB394;
+}
+
+.disabled {
+  pointer-events: none;
+  /* opacity: 0.5; */
+}
+
+.currentSchedule .amcharts-axis-label {
+  cursor: pointer;
+}
+
+.currentSchedule .amcharts-graph-column {
+  cursor: pointer;
+}
+
+.export-btn {
+  box-shadow: none !important;
+  -webkit-box-shadow: transparent !important;
+  background-color: transparent !important;
+}
+
+#legend {
+  width: 700px;
+  float: right;
+}
+
+.listHeader {
+  color: #ffffff;
+  background: #334251;
+  border-right: 15px solid #F6F6F6;
+  padding: 10px 0px 10px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: left;
+  text-indent: 1em;
+  width: 100%;
+}
+
+.ui-datepicker-today .ui-state-highlight {
+  background: salmon;
+}
+
+.pagination {
+  margin: 0px;
+}
+
+.pagination .active a {
+  background-color: #2AA689;
+  z-index: 2;
+  color: #F6F6F6;
+  cursor: default;
+}
+
+.pagination>.active>span:hover, .pagination>.active>a:focus {
+  background-color: #2AA689;
+  z-index: 2;
+  color: #F6F6F6;
+  cursor: default;
+}
+
+#report-grid .slick-header-menubutton {
+  width: 100% !important;
+}
+
+#report-grid .slick-header-column {
+  height: 35px !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #2AA689 !important;
+}
+
+.cell-effort-driven {
+  text-align: center;
+}
+
+.cell-reorder {
+  cursor: move;
+  background: url("../img/slickgrid/drag-reorder.png") no-repeat center center;
+  background-size: 30px 20px;
+}
+
+.cell-selection {
+  border-right-color: silver;
+  border-right-style: solid;
+  background: #f5f5f5;
+  color: gray;
+  text-align: right;
+  font-size: 10px;
+}
+
+.slick-row.selected .cell-selection {
+  background-color: transparent;
+  /* show default selected row background */
+}
+
+.recycle-bin {
+  width: 90px;
+  border: 1px solid gray;
+  background: #2AA689;
+  padding: 4px;
+  font-size: 12pt;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  -moz-border-radius: 10px;
+}
+
+.red {
+  background: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#bo_instance_relationships .react-tagsinput-tag a::before {
+  content: "";
+}
+
+#bo_instance_relationships .react-tagsinput {
+  width: 100%;
+}
+
+.slick-group .slick-cell {
+  background-color: burlywood;
+}
+
+.slick-group-title[level='0'] {
+  font-weight: bold;
+}
+
+.slick-group-title[level='1'] {
+  text-decoration: underline;
+}
+
+.slick-group-title[level='2'] {
+  font-style: italic;
+}
+
+.isn {
+  border: 9px solid #353535;
+  min-width: 918px;
+}
+
+.isn-header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(103, 106, 108);
+  border-bottom: 5px solid #353535;
+}
+
+.isn-footer {
+  width: 100%;
+  height: 40px;
+  border-top: 5px solid #353535;
+  background-color: rgb(103, 106, 108);
+}
+
+.control-buttons {
+  float: right;
+  margin-right: 2px;
+  margin-left: 2px;
+  display: flex;
+  height: 31px;
+}
+
+.ui-dialog {
+  z-index: 2000 !important;
+}
+
+.loading-indicator {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  padding: 12px;
+  background: white;
+  -opacity: 0.5;
+  color: black;
+  font-weight: bold;
+  z-index: 9999;
+  border: 1px solid red;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0 0 5px red;
+  -webkit-box-shadow: 0px 0px 5px red;
+  -text-shadow: 1px 1px 1px white;
+}
+
+.loading-indicator label {
+  padding-left: 20px;
+  background: url('../../node_modules/slickgrid/images/ajax-loader-small.gif') no-repeat center left;
+}
+
+.splitter-vertical>.splitter.splitter-handle-bar>.splitter_handle {
+  width: 8px !important;
+}
+
+#bo_instance_parent .splitter_panel .react-tagsinput {
+  height: 158px;
+  overflow-y: auto;
+}
+
+#AttributesOfTheInstanceGrid .slick-viewport .btn-group>.btn:first-child {
+  height: 25px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.slick-headerrow.ui-state-default {
+  overflow: hidden !important;
+}
+
+.ui-progressbar {
+  position: relative;
+}
+
+.progress-label {
+  position: absolute;
+  left: 2px;
+  top: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+  color: black;
+}
+
+.slick-preheader-panel.ui-state-default {
+  width: 100%;
+  overflow: hidden;
+  border-left: 0px !important;
+  border-bottom: 0px !important;
+}
+
+.slick-preheader-panel .slick-header-columns {
+  border-bottom: 0px !important;
+}
+
+#ComparePartsGrid .slick-group-header-columns .slick-column-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#ComparePartsGrid .slick-header-columns .slick-column-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header-bolt {
+  font-size: 18px
+}
+
+.border-blue:focus {
+  border: 1px solid #2979B6 !important;
+}
+
+.border-blue-input:focus {
+  border: 1px solid #2979B6 !important;
+  background-color: white !important;
+}
+
+#react-autowhatever-Instance-Tags {
+  height: 81px;
+  overflow-y: auto;
+}
+
+#AttributesOfTheInstanceGrid .select2-container {
+  border: 1px solid #2979B6 !important;
+  background: white !important;
+}
+
+.select2-container ul {
+  border: none !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+  min-height: 24px !important;
+}
+
+.ui-spinner .ui-icon {
+  left: 7px !important;
+}
+
+.background-lightgoldenrodyellow {
+  background: lightgoldenrodyellow !important
+}
+
+.background-yellowgreen {
+  background: yellowgreen !important
+}
+
+.slick-grid-header-order {
+  color: #2DB294;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+
+.slick-grid-tags {
+  float: left;
+  list-style: none;
+  user-select: none;
+  background-color: #e4e4e4;
+  background-image: linear-gradient(to bottom, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+  padding: 3px 5px 3px 5px;
+  margin: 3px 0 3px 5px;
+  position: relative;
+  line-height: 13px;
+  color: #333;
+  cursor: default;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+}
+
+.slick-cell.editable {
+  border-color: transparent !important;
+}

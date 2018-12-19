@@ -1,0 +1,54 @@
+@media print {
+    @page {
+        size: A4 landscape;
+    }
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+    #openIssuesUrl {
+        display: none !important;
+    }
+    #schedule {
+        width: 260mm !important;
+    }
+    #print {
+        display: none !important;
+    }
+    #summaryContainer {
+        height: 100% !important;
+    }
+    #myMenu {
+        display: none !important;
+    }
+    #dashboardSelectContainer {
+        display: none !important;
+    }
+    #resize {
+        display: none !important;
+    }
+    #datepickerContainer {
+        display: none !important;
+    }
+    #key {
+        width: 10px !important;
+    }
+    .amChartsLegend {
+        display: none !important;
+    }
+    .amcharts-scrollbar-horizontal {
+        display: none !important;
+    }
+    .grid-header {
+        display: none !important;
+    }
+    .slick-headerrow-columns {
+        display: none !important;
+    }
+    .slick-viewport {
+        overflow: hidden !important;
+    }
+    #legends {
+        display: none !important;
+    }
+}
